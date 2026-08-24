@@ -101,7 +101,7 @@ flutter run -d android     # Android version
 ```
 
 ## 📈 Performance Summary
-```txt
+
 Metric	Value
 R² (rMPH)	0.3467
 R² (TCAP)	0.5966
@@ -117,7 +117,7 @@ Linear Regression	0.5954	✅ Yes	High
 XGBoost	0.5039	✅ Yes	Low
 Random Forest	0.5349	✅ Yes	Low
 SVR	0.3648	✅ Yes	Low
-```
+
 
 ## 🧬 Key Biological Insights
 Paternal Effect (PE) and Maternal Effect (ME) have practically identical coefficients (22.48 vs. 22.08), confirming that both parents contribute equally to heterosis when controlling for their combining ability.
