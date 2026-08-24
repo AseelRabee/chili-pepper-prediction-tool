@@ -101,14 +101,14 @@ flutter run -d android     # Android version
 ```
 
 ## 📈 Performance Summary
+```txt
 Metric	Value
 R² (rMPH)	0.3467
 R² (TCAP)	0.5966
 RMSE (TCAP)	4940.53 µg/g
 MAE (TCAP)	3882.61 µg/g
 95% CI for R²	[0.4956, 0.6142]
-Accuracy within 15% error	65.6%
-```
+Accuracy within 15% error	65.6%```
 Benchmarking Results
 Model	R² (TCAP)	Retraining Required	Interpretability
 Our Ridge (Static)	0.5966	❌ No	✅ High (Explicit)
@@ -117,30 +117,20 @@ Linear Regression	0.5954	✅ Yes	High
 XGBoost	0.5039	✅ Yes	Low
 Random Forest	0.5349	✅ Yes	Low
 SVR	0.3648	✅ Yes	Low
+```
 
-🧬 Key Biological Insights
+## 🧬 Key Biological Insights
 Paternal Effect (PE) and Maternal Effect (ME) have practically identical coefficients (22.48 vs. 22.08), confirming that both parents contribute equally to heterosis when controlling for their combining ability.
 ND and WGD are the strongest drivers of heterosis (coefficients of +82.39 and -82.17, respectively), highlighting the critical role of optimal genetic divergence.
 The apparent dominance of PE in ablation analysis reflects higher variance among fathers in this specific population, not superior biological strength.
 
-📝 Citation
-If you use this code or model in your research, please cite:
 
-bibtex
-@article{e,
-  title={An interpretable five-variable predictive equation for capsaicinoid content in pepper hybrids},
-  author={},
-  journal={},
-  year={},
-  doi={...}
-}
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-📧 Contact
+## 📧 Contact
 For questions or collaborations, please open an issue or contact the corresponding author.
 
