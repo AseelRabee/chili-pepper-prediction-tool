@@ -74,16 +74,17 @@ chili-pepper-prediction-tool/
     └── residual_diagnostics.png
 ```
 
-🔧 Quick Start
+## 🔧 Quick Start
 1. Run the Statistical Analysis (Python)
 Clone the repository and install dependencies:
 
-bash
+```txt
 git clone https://github.com/AseelRabee/chili-pepper-prediction-tool.git
 cd chili-pepper-prediction-tool/analysis
 pip install -r requirements.txt
 python full_analysis_script.py
 Input files required: BLUP_value.csv, gt.score.csv, combi.csv (place them in the same directory).
+```
 
 This will generate:
 All tables and figures from the paper
@@ -92,14 +93,14 @@ StandardScaler (standard_scaler_final.pkl)
 Prediction results and datasets
 
 2. Build the Flutter App
-bash
+```txt
 cd ../app
 flutter pub get
 flutter run -d chrome      # Web version
 flutter run -d android     # Android version
+```
 
-
-📈 Performance Summary
+## 📈 Performance Summary
 Metric	Value
 R² (rMPH)	0.3467
 R² (TCAP)	0.5966
