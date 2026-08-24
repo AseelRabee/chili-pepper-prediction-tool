@@ -1,0 +1,19 @@
+# Core data manipulation and numerical computation
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Machine learning models and preprocessing
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Statistical analysis and bootstrapping
+scipy>=1.10.0
+
+# Gradient boosting (optional but used in model comparison)
+xgboost>=1.7.0
+
+# Model serialization (saving/loading)
+joblib>=1.2.0
