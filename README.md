@@ -108,7 +108,7 @@ RMSE (TCAP)	4940.53 µg/g
 MAE (TCAP)	3882.61 µg/g
 95% CI for R²	[0.4956, 0.6142]
 Accuracy within 15% error	65.6%
-
+```
 Benchmarking Results
 Model	R² (TCAP)	Retraining Required	Interpretability
 Our Ridge (Static)	0.5966	❌ No	✅ High (Explicit)
