@@ -83,14 +83,14 @@ git clone https://github.com/AseelRabee/chili-pepper-prediction-tool.git
 cd chili-pepper-prediction-tool/analysis
 pip install -r requirements.txt
 python full_analysis_script.py
-Input files required: BLUP_value.csv, gt.score.csv, combi.csv (place them in the same directory).
 ```
-
+Input files required: BLUP_value.csv, gt.score.csv, combi.csv (place them in the same directory).
 This will generate:
 All tables and figures from the paper
 Trained Ridge regression model (ridge_model_final.pkl)
 StandardScaler (standard_scaler_final.pkl)
 Prediction results and datasets
+
 
 2. Build the Flutter App
 ```txt
