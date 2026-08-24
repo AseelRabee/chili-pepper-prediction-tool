@@ -48,10 +48,10 @@ Our model reduces predictors from **3,194 SNP markers** to just **five biologica
 rMPH = 45.4260 - 82.1698·WGD_scaled + 82.3899·ND_scaled + 22.0811·ME_scaled + 22.4838·PE_scaled - 2.6207·Pavg_scaled
 
 TCAP_pred = Pavg × (1 + rMPH / 100)
+```
 
-
-📁 Repository Structure
-txt
+## 📁 Repository Structure
+```txt
 chili-pepper-prediction-tool/
 ├── analysis/                          # Python analysis scripts
 │   ├── full_analysis_script.py        # Complete statistical analysis
@@ -72,7 +72,7 @@ chili-pepper-prediction-tool/
     ├── Figure_Radar_Comparison.png
     ├── Figure_Sensitivity_Analysis.png
     └── residual_diagnostics.png
-
+```
 
 🔧 Quick Start
 1. Run the Statistical Analysis (Python)
